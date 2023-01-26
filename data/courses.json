@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 1,
+        "title" : "SUSHI PROFESIONAL",
+        "price" : 10530,
+        "description" : "Con una gran experiencia Roberto Nishida te enseña los secretos de las técnicas básicas en la elaboración del sushi, vas a descubrir la importancia de cada ingrediente para que realices una gran variedad de rolls, sashimis y niguiris.",
+        "level": "baja",
+        "image":"Sushi-web.jpg",
+        "chef":"Roberto Nishida"
+    },
+    {
+        "id" : 2,
+        "title" : "CHOCOLATERÍA CON ARIEL GRAVANO",
+        "price" : 11178,
+        "description" : "Descubrirás los secretos en el arte de la Chocolatería, el chef Ariel Gravano te enseña las técnicas para que puedas hacer recetas clásicas y modernas con chocolate. Podrás preparar delicias para disfrutar y compartir aprendiendo como un profesional.",
+        "level": "media",
+        "image":"Chocolatería-Básica-web.jpg",
+        "chef":"Ariel Gravano"
+    }
+]
