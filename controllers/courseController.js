@@ -2,7 +2,7 @@ const courses = require('../data/courses.json')
 
 module.exports = {
   list: (req, res) => {
-    return res.render("courses/list",{
+    return res.render("courses/list", {
       title : "Lista de cursos",
       courses
   });

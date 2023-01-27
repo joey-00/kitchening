@@ -12,16 +12,18 @@
         
         <!-- productos -->
         <section class="home__main__section--productos">
-          <% courses.forEach(((title,price,description,level,image,chef,id )) => { %>
+          <% courses.forEach(({title,price,description,level,image,chef,id }) => { %>
             <article class="home__main__section__article animate__animated">
             <div class="home__main__section__article--imagen">
               <img class="home__main__section__article--imagen-product" src="/images/cursos/<%= image %> " alt="">
-              <img class="home__main__section__article--imagen-sticker" src="/images/img-nuevo.png" alt="">
+              <img class="home__main__section__article--imagen-sticker" src="/images/<%= level %> " alt="">
               <a class="home__main__section__article--imagen-zoom" href="">ampliar foto</a>
             </div>
             <div class="home__main__section__article--contenido">
               <h4><%= title %> </h4>
               <p><%= description %> </p>
+              <p><%= level %> </p>
+              <h3>$<%= price %> </h3>
               <a href="/courses/detail/<%= id %> ">ver más</a>
             </div>
           </article>

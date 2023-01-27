@@ -14,6 +14,9 @@
 .home__main__section__article--imagen{
     position: relative;
 }
+.home__main__section__article--imagen :hover{
+    transform: scale(1.05);
+}
 
 .home__main__section__article--imagen-product{
     width: 100%;

@@ -13,5 +13,6 @@ module.exports = {
         return res.render('users/profile',{
            title : "perfil de usuario" 
         })
-    }
+    },
+    
 }
